@@ -1,0 +1,15 @@
+
+Title: Tamil Astrology Graha-Yoga Analyzer
+
+Instructions:
+Upload astrology_pack_lovable_ready.json as the offline database. Build an Android app (South-Indian rasi grid) that accepts Lagna and planet placements (Sun, Moon, Mars, Mercury, Jupiter, Venus, Saturn, Rahu, Ketu) and computes:
+- Yoga matches (from the 300 yogas in JSON)
+- Maragathipathi, Bathagathipathi, Yogathipathi, Attamathipathi
+- Planet dignities (Ucham/Neecham/Aadchi/Pagai)
+- Ashtavarga & Sarvashtakavarga (if tables provided)
+- Thikbalam (directional strength)
+- Karako Bhava Nasthi, Kendradhipathy Dosha, Vakra Gathi impacts
+UI behavior:
+- When user taps a rasi/house, show an alert with point-wise breakdown: matched yogas, lords, dignities, ashtavarga points, thikbalam points, doshas, and body-part mapping (in Tamil).
+- App must work fully offline using the provided JSON.
+Output: deliverable APK for testing and modular source code.
